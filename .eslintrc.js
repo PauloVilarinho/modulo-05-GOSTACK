@@ -32,6 +32,7 @@ module.exports = {
     ],
     "react/prefer-stateless-function": [0, { "ignoreComponents": true }],
     'react/state-in-constructor': 'off',
+    "react/static-property-placement": [0,'static public field'],
     'import/prefer-default-export' : 'off'
   },
 };
