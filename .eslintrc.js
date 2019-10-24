@@ -30,6 +30,8 @@ module.exports = {
       'warn',
       {extensions : ['jsx','js']}
     ],
+    "react/prefer-stateless-function": [0, { "ignoreComponents": true }],
+    'react/state-in-constructor': 'off',
     'import/prefer-default-export' : 'off'
   },
 };
